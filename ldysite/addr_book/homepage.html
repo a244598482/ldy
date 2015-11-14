@@ -28,7 +28,7 @@
 {% for book in Book_list %}
  <tr>
   <td>{{ book.ISBN }}</td>
-  <td><a href="http://127.0.0.1:8000/show/?id={{book.id}}">{{ book.Title }}</td>
+  <td><a href="/show/?id={{book.id}}">{{ book.Title }}</td>
  </tr>
 {% endfor %}
 {% endif %}
@@ -37,7 +37,7 @@
 
 
 <div id="d">
-<a href="http://127.0.0.1:8000/add">添加新书</a>
+<a href="/add">添加新书</a>
 </div>
 
 <div id="footer">
