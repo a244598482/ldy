@@ -105,3 +105,4 @@ def png(request):
             img.save(name,"jpeg")
     return render_to_response("jpg.html")
 """
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
